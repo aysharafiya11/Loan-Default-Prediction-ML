@@ -1,5 +1,11 @@
 # Loan Default Prediction & Credit Risk Analysis
 
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-blue)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Machine%20Learning-orange)
+![Random Forest](https://img.shields.io/badge/Model-Random%20Forest-green)
+![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange)
+
 ## Project Overview
 
 This project uses machine learning to predict whether a loan is likely to be **Fully Paid** or **Charged Off**.
