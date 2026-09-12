@@ -91,6 +91,16 @@ It was then used to generate predictions for the valid records in the provided t
 
 The test dataset does not contain the actual `Loan Status`, so the final test predictions cannot be evaluated using standard classification metrics.
 
+### Final Prediction Summary
+
+The final Random Forest model generated predictions for **10,000 valid test records**:
+
+- **8,692** predicted as Fully Paid
+- **1,308** predicted as Charged Off
+- **13.08%** of test records predicted as Charged Off
+
+The predictions are available in `outputs/loan_predictions.csv`.
+
 ## Key Insights
 
 The Random Forest model identified several financial and credit-history variables as important predictors, including:
