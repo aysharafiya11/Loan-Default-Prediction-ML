@@ -76,6 +76,13 @@ The models were evaluated using:
 
 Random Forest was selected as the final model because it provided better recall, F1-score, and ROC-AUC than Logistic Regression on the corrected validation split.
 
+### Validation Results
+
+| Model | Accuracy | Precision | Recall | F1-score | ROC-AUC |
+|---|---:|---:|---:|---:|---:|
+| Logistic Regression | 74.91% | 54.15% | 3.31% | 6.24% | 0.6411 |
+| Random Forest | 71.52% | 41.74% | **32.82%** | **36.76%** | **0.6883** |
+
 ## Final Model
 
 The selected Random Forest model was retrained using the complete cleaned training dataset.
