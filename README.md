@@ -105,6 +105,16 @@ The Random Forest model identified several financial and credit-history variable
 
 Feature importance represents the contribution of features to the model's predictions and does not imply a causal relationship.
 
+### Visualizations
+
+#### Loan Status Distribution
+
+![Loan Status Distribution](Images/loan_status_distribution.png)
+
+#### Random Forest Feature Importance
+
+![Random Forest Feature Importance](Images/random_forest_feature_importance.png)
+
 ## Tools & Technologies
 
 - Python
